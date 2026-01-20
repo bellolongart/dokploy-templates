@@ -1,0 +1,11 @@
+[variables]
+main_domain = "${domain}"
+
+[config]
+env = {}
+mount = []
+
+[[config.domains]]
+serviceName = "trilium_next"
+port = 8080
+host = "${main_domain}"
